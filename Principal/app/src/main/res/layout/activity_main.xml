@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.hector.principal.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo" />
+
+
+    <TextView
+        android:id="@+id/usr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USUARIO:"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <EditText
+        android:id="@+id/txtusuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+        <TextView
+            android:id="@+id/pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTRASEÑA:"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="206dp" />
+
+
+        <EditText
+            android:id="@+id/txtpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="194dp" />
+
+
+    <Button
+        android:id="@+id/entrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INGRESAR"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+
+
+</LinearLayout>

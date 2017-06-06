@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hector.principal.Menu">
+
+    <TextView
+        android:id="@+id/opcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione una de las siguientes opciones:"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <RadioGroup
+        android:id="@+id/grupo"
+        android:layout_width="213dp"
+        android:layout_height="188dp"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="113dp">
+
+        <RadioButton
+            android:id="@+id/runo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CORREO INSTITUCIONAL" />
+
+        <RadioButton
+            android:id="@+id/rdos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MOODLE" />
+
+        <RadioButton
+            android:id="@+id/rtres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PLATAFORMA Q10" />
+
+        <RadioButton
+            android:id="@+id/rcuatro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RECIBO DE MATRICULA" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Otras Opciones" />
+
+
+</LinearLayout>
